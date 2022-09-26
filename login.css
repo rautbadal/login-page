@@ -1,0 +1,98 @@
+body {
+   background-color: #707773;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+  
+  .box-form {
+    margin: 0 auto;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b6f85;
+  }
+  
+
+  .box-form .left .overlay {
+    padding: 30px;
+    width: 900px;
+    height: 780px;
+    background: #A4C4B6;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: url("https://imgv3.fotor.com/images/side/How-to-student-ID-card.png");
+    overflow: hidden;
+  }
+
+  .box-form .right {
+    padding: 40px;
+    overflow: hidden;
+  }
+  .box-form .right .overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+ }
+
+  h3 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: #4A4747;
+  }
+  
+  input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid rgb(0, 0, 0);   
+    box-sizing: border-box;   
+}  
+
+.container {   
+    padding: 25px;    
+}   
+
+ button {   
+    background-color: #696969;   
+    width: 100%;  
+    color: #FFFFFF;   
+    padding: 15px;   
+    margin: 10px 0px;   
+    border: none;   
+    cursor: pointer;  
+    font-size: 18px; 
+    }   
+
+    button:hover {   
+        opacity: 0.7;   
+    }   
+
+
+  .forget-password {
+    text-align: end;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #4A4747;
+  }
+ 
