@@ -115,14 +115,30 @@ input {
 
 
 .overlay {
-	background-image: url(https://image.shutterstock.com/image-photo/skeptic-surprised-cat-thinking-dont-260nw-1905929728.jpg);
+	background-image: url(images/chainshow.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0 0;
+	background-size: 50% 100%;
 	color: #FFFFFF;
 	position: relative;
 	height: 100%;
 	width: 200%;
+	animation-name: slider;
+	animation-duration: 9s;
+	animation-delay: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes slider {
+	0% {
+		background-image: url(images/chainshow.jpg);
+	}
+	35% {
+		background-image: url(images/forest-fire.jpg);
+	}
+	75% {
+		background-image: url(images/poaching.jpg);
+	}
 }
 
 .overlay-panel {
