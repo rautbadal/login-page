@@ -115,15 +115,12 @@ input {
 
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background-image: url(https://image.shutterstock.com/image-photo/skeptic-surprised-cat-thinking-dont-260nw-1905929728.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
 	color: #FFFFFF;
 	position: relative;
-	left: -100%;
 	height: 100%;
 	width: 200%;
 }
